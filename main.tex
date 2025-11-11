@@ -1,0 +1,180 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{array} 
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Smart Fridge Connected Smart Container\\
+{\footnotesize{A Revolutionary Smart Container That Connects to Your LG Smart Fridge}}
+}
+
+\author{\IEEEauthorblockN{Kim Seung Hyun}
+\IEEEauthorblockA{\textit{Department of Information Systems} \\
+\textit{Hanyang University}\\
+Seoul, South Korea \\
+Email: skim21@hanyang.ac.kr}
+\and
+\IEEEauthorblockN{Cyriaque Denniel}
+\IEEEauthorblockA{\textit{ECE Paris École d'Ingénieurs} \\
+\textit{School of Engineering}\\
+Paris, France \\
+Email: cyriaque.denniel@edu.ece.fr}
+\and
+\IEEEauthorblockN{Le Mee Thomas}
+\IEEEauthorblockA{\textit{ECE Paris École d'Ingénieurs} \\
+\textit{School of Engineering}\\
+Paris, France \\
+Email: thomas.lemee@edu.ece.fr}
+\and
+\hspace*{6cm} 
+\IEEEauthorblockN{Kieran Choo}
+\IEEEauthorblockA{\hspace*{6cm}\textit{School of Electrical and Electronic Engineering} \\
+\hspace*{6cm}\textit{Nanyang Technical University}\\
+\hspace*{6cm}Singapore, Singapore \\
+\hspace*{6cm}Email: KCHOO012@e.ntu.edu.sg}
+
+}
+
+\maketitle
+
+\begin{abstract}
+This electronic “Smart Container” aims to provide a convenient way to allow users to track and maintain the freshness of the container’s contents within a smart fridge. By using a combination of a LAN connection and a built in timer, the Smart Container intends to connect to the Smart Fridge and provide real time information of the duration the contents within have been present for. By constantly communicating with the Smart Fridge through a seamless connection, the Smart Container will relay time and location information of the container, informing the user via Built-in lights and a Notification alert sent to the user’s preferred device of the duration the container has been in the fridge for and whether the container has been outside the fridge for a set duration of time. By informing the user of this information, we aim to minimize food spoilage and potential food waste from accumulating within the fridge of the user. 
+\end{abstract}
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|c|c|>{\raggedright\arraybackslash}p{4cm}|}
+\hline
+\textbf{Roles} & \textbf{Name}& \textbf{Task and Description} \\
+\hline
+User& Cyriaque Denniel& The role of the user is to test the Smart Home system in real-life situations, identify usability issues, suggest improvements, and help make the system intuitive, reliable, and truly useful.\\
+\hline
+Customer& Thomas Le Mee& Customer	Thomas Le Mee	The role of the customer is to use the Smart Home system, evaluate its usefulness and satisfaction, and provide feedback to help ensure a practical, enjoyable, and reliable experience.\\
+\hline
+Software Developer& Kieran Choo& Software Developer	Kieran Choo	The role of software developer is to design, build, and maintain the Smart Home system’s applications and backend. The developer implements features, ensures smooth integration with devices and protocols, and resolves technical issues, contributing to a reliable, efficient, and user-friendly system that meets real-world needs.\\
+\hline
+Development manager& Seung Hyun Kim& Development manager	Kim Seung Hyun	The role of the development manager is to oversee the creation and delivery of the Smart Home system, coordinating teams, setting priorities, and ensuring technical and functional goals are met. The manager guides the development process, aligns efforts with user needs, and ensures the final product is reliable, efficient, and ready for real-world use.\\
+\end{tabular}
+\label{tab1}
+\end{center}
+\end{table}
+
+
+\section{MOTIVATION}
+Our motivation for creating the product was to address the lack of fridge management systems currently on the market. Despite the introduction of Smart Fridges to potentially combat this problem, and the use of AI powered cameras within some of the latest generations of Smart Fridges, the reality is fridge management is still done manually by most of the fridge’s users, and many are either unaware of, or find it difficult to utilize, the advanced features their Smart Fridges provide. As a result, the problem of unmonitored food storage persists.
+
+This situation often leads to food waste, as leftovers or unused ingredients are placed into containers and subsequently forgotten. Over time, these neglected items spoil unnoticed, contributing not only to unnecessary household waste but also to larger environmental and economic concerns. By integrating a Smart Container system that connects directly to a Smart Fridge, we aim to bridge the gap between technological potential and everyday usability.
+
+Our product is designed to automatically track how long food has been stored, provide notifications when items have been left out of the fridge for too long, and remind users when food is nearing expiration. This system seeks to make fridge management more intuitive and accessible for everyday users, reducing the cognitive burden of manual tracking while promoting sustainability and smarter household habits. Ultimately, our goal is to empower users with a practical and user-friendly tool that minimizes waste, optimizes food freshness, and enhances the overall efficiency of modern kitchen management.
+
+
+\section{POTENTIAL USE CASES}
+
+\subsection{In a Home Setting}
+
+The introduction of the Smart Container system provides several benefits within a home setting. By automating the monitoring and tracking of stored food, the system significantly reduces the likelihood of waste caused by forgotten or spoiled  items. Users are informed when food has been stored for an extended period or when a container has been left outside the fridge for too long, enabling them to make timely decisions about consumption or disposal. This not only enhances food safety but also encourages more responsible consumption habits within the household.
+
+In addition, the Smart Container system simplifies daily routines by removing the need for manual tracking or labeling of food. Through its integration with Smart Fridge systems and mobile applications, users can easily view the status of their stored items, receive real-time updates, and plan meals more effectively. This creates a more organized and efficient kitchen environment, reducing the mental stress often associated with managing perishable goods.
+
+\subsection{In a Commercial Setting}
+
+The Smart Container system also offers significant benefits in commercial settings, where efficient food management and safety standards are critical. In environments such as restaurants, cafes, and grocery stores, the system can serve as a valuable tool for monitoring ingredient freshness and ensuring compliance with food safety regulations. By automatically tracking storage durations, and container movement, the system reduces the risk of human error in food handling and inventory management—areas where mistakes can result in financial loss or health risks.
+
+For restaurant staff and store employees, the Smart Container simplifies operations by providing real-time updates on ingredient status through a centralized dashboard. Staff can quickly identify which items are approaching expiration or have not been returned to the fridge, allowing the staff to make decisions to return or dispose of said food items. This not only minimizes waste and prevents spoilage but also supports more accurate stock rotation, ensuring that products are always used in the proper order of freshness.
+
+Furthermore, the integration of the Smart Container system into commercial kitchens enhances transparency and accountability. Detailed data logs can assist with health inspections, internal audits, and sustainability reporting, offering clear evidence of proper food storage practices. By reducing unnecessary waste, improving operational efficiency, and reinforcing food safety, the Smart Container contributes to a more sustainable and cost-effective business model. In this way, it aligns with the growing demand for smarter, technology-driven solutions in the food service and retail industries.
+
+\section{REQUIREMENTS (TBD)}
+Though incomplete, these are the current requirements our group has determined to be necessary to create this product. The requirements will be split into a physical requirement and software requirement as our current plan is to create a physical device that could be presented to the LG judges.
+
+\subsection{Physical Requirements}
+\begin{itemize}
+\item Container - A physical container composed of either glass or plastic would be ideal, and we are still discussing the potential viability of a metal or steel container.
+\item Communication Device - A communication device that could be attached and connected to the container to communicate with the Smart Fridge. Must be small and portable to be usable, and must ideally fit within the lid or within a small portion of the container.
+\item Onboard Computer - An onboard computer would be necessary to calculate the location of the container, track the time with an onboard timer, and maintain constant connection with the Smart Fridge to send and receive alerts about time and location information.
+\item Wireless charging Method - A method of wireless charging would be required to use this device. A wireless charging dock that acts as the fridge divider would go in tandem with the wireless charging dock on the bottom of the container, charging the device.
+\item Small power source - A small power source would be necessary to power the devices while they are not within the fridge to allow for location based information and alerts to reach the user’s devices.
+\end{itemize}
+
+\subsection{Software Requirements}
+\begin{itemize}
+\item LG ThinQ Smart Fridge API Connectivity - A necessary software component to connect our Smart Container to seamlessly integrate with existing LG Smart Fridges and the LG ThinQ App.
+\item Timer and Location function - Our code would need to be able to track and process both the time, either based on an onboard timer or through constant time requests from the Smart Fridge, and the time required before an alert is sent out should be customizable. The code should also be able to track the container’s location and determine whether it is within or outside of the fridge. 
+\item Alert and Notification function - The application must be able to generate an alert and send a notification to the user based on the time and place of the container. The notification should be visible from the LG ThinQ application and from the phone's built in pop-up notification. 
+\item Wireless network or LAN connection - Each box should be able to either connect or disconnect from the fridge whenever necessary, and the smart container should be able to send and generate these alerts through the smart fridge, hence why a wireless connection through either bluetooth or a network or other wireless connection method is necessary.
+\item UI Integration with ThinQ - The code should also be visible and usable on the LG ThinQ App, and customizable from within the LG ThinQ App. Making the user download a separate app to control the containers would diminish the user-friendliness of our product.
+\item Customization Options within the App - Each container needs to have the ability to be able to be customizable in terms of name and color of the light to indicate the contents in the box. The alert messages, alert and notification message type, and the time necessary for the notification to be sent out should also all be customizable. 
+\end{itemize}
+
+\section{CURRENT PLANS TO FULFILL THE REQUIREMENTS}
+\subsection{Current Plans to Fulfill the Physical Requirement}
+\begin{itemize}
+\item Container - Containers could be bought in bulk through online and offline stores for a low cost. Any food-safe containers that are made of plastic or glass with the measurements of 10cm ~ 15cm in width and length and 5cm ~ 10cm are currently being considered. 
+\item Communications Device and Onboard Computer - Our current plan is to fulfill both of these requirements by using a Raspberry Pi or an Arduino to serve both functions. 
+\item Wireless Charging and Power Storage - We are still in discussion as to how we could fulfill these requirements without diminishing the efficiency of the batteries and these components occupying most of the container’s usable space. Current solutions are small capacitors, Lithium-ion Phosphate batteries, or Phase Change Material batteries.
+\end{itemize}
+
+\subsection{Current Plans to Fulfill the Software Requirement}
+\begin{itemize}
+\item LG ThinQ API - LG has released their ThinQ API to the public to allow developers to utilize their products and create a more well connected Smart Home Environment.
+\item Timer and Location function - By utilizing a close range connection, we plan to start generating an alert based on if the connection has been lost, though this function still needs consideration.
+\item UI Integration with the ThinQ App - LG has released their ThinQ App SDK, but more research is needed to determine whether the SDK is compatible with the coding environment we plan to use. 
+\item Alert and Notification system - By utilizing the device's built-in pop-up notification function of both Apple and Android devices, we plan to alert the users wirelessly via the smart fridge.
+\end{itemize}
+
+\section{SPECIFICATIONS}
+\subsection{Physical Specifications}
+\begin{itemize}
+\item Container - Food-safe plastic must be used with a small sealed compartment in the lid to house the electronic components. A transparent section will be added on the lid as a window for light indication of the status of the container.
+\item Communication Device/ Onboard Computer - A Raspberry Pi Zero W will be used to utilise Bluetooth Low Energy while making sure the device is compact enough to be fitted onto the container. 
+\item Wireless charging - Implemented using Qi-compatible receiver coil. Brackets will be made to align the container’s base embedded with the coil, and the transmitter built into the fridge divider.
+\item Small Power Source - A 1000 mAh battery will provide power to the container when disconnected from the fridge. A microcontroller will monitor the charge status and will relay the status to the LED (green - fully charged, red - not fully charged) and the fridge (to be sent to the ThinQ App).
+\end{itemize}
+
+\subsection{Software Specifications}
+\begin{itemize}
+\item LG ThinQ API Connection - The container’s microcontroller will communicate with the LG ThinQ API via REST calls using HTTPS and OAuth 2.0 authentication. The firmware will send updates such as connection status and alerts every few seconds. Error-handling routines will retry failed transmissions up to three times before signaling disconnection. 
+\item Timer and Location function - Bluetooth Low Energy (BLE) will indicate the distance of the box from the reference of the fridge. The program will use periodic checks to determine whether the container has been removed or inactive over a set duration. If the threshold is exceeded, an alert will be triggered. This logic will be fed through a loop that compares elapsed time and connection state at fixed intervals. A real-time clock module will handle time tracking, maintaining a set accuracy of 1 second/hour. 
+\item Alert and Notification function - Alerts will be generated by the onboard system and sent to the ThinQ app through the fridge. 
+\begin{itemize}
+\item Alert Message - Each alert will contain the container ID or user designated label, alert type, and timestamp. On the app side, users will receive both a push notification for their mobile device and a visible status update on the app.
+\item Alert Notification Customization -  Alert notifications will be customizable in the integrated application. Customization options will include changing the alert message and the visible status indicator color. The visible status update will, by default, use colors corresponding to the alert type (i.e. red - immediate actions needed, green - no issues), but can be modified by the user through the app.
+\item Alert time customization - Users will be able to customize the duration before the alert notice will be sent out. The default setting will be set to:
+\begin{itemize}
+\item Container is out of fridge - 1 hour
+\item Container is in the fridge - 1 week (caution alert), 2 weeks (danger alert)
+\end{itemize}
+
+However, the user may either manually adjust the time, or use the integrated AI to automatically set the alert duration. Time will be adjustable by year, week, day, hour, and minutes, and can either be a count-down timer or a set calendar date.
+\end{itemize}
+\item Wireless network or LAN connection - Bluetooth Low Energy will handle automatic connection between the box and the fridge. A callback function to re-initialise and re-establish encryption of connection will be included. AES-CCM (128-bit) encryption will be used.
+\item UI integration with ThinQ - With the use of LG ThinQ’s SDK, unique data fields (status, alerts) for the container will be integrated directly into the ThinQ App interface. Updates to the UI will be triggered by cloud events from the Smart Fridge API, and any updates made to the containers will be sent through BLE.
+\begin{itemize}
+\item UI Customization Options - The UI itself will be customizable, with the user being able to change the displayed information using blocks. The planned blocks will include:
+\begin{itemize}
+\item A summary of how many containers total are connected, and categorized by warning levels (normal, caution, danger)
+\item What specific containers need attention 
+\item Battery lifetime and total uptime of each container
+\item Categorization of the container's contents (chosen either by the user or sorted by the app)
+\end{itemize}
+\item Container Labeling - Each container will be able to be labeled with up to 20 characters and numbers. The only special characters that can be added will be (. , ? !) to minimize the data management  for the database.
+\item Container Content Categorization - An option to categorize the contents of the containers will be provided. By default, 5 main categories will be provided (Meat, Vegetables, Fruits, Cooked items, Long-term storage), but up to 20 categories could be added by the user, each with a small icon and a description of up to 20 letters, and with color customization. Users will be able to add individual containers to the categories, or set up a condition for automatic sorting.
+\end{itemize}
+\item Local and Online Database - The Smart Fridge will communicate and store data onto both a local database and online database so the user can access the information from anywhere, and can write and retain their settings should the user decide to replace their Smart Fridge or move locations.
+\begin{itemize}
+\item DBMS - The Database Management Software will be in MySQL, as it is both open-source and free to use for any purpose, including commercial purposes. MySQL also supports backup and restore functions, allowing for a quick reboot and restoration in the event of a loss of communication or blackout.
+\item Local Database - The Smart Fridge will contain a localized database that it calls to and updates every 10 minutes, which will allow the fridge to maintain data integrity even in the event of a loss of communication with the online database, and restore functions quickly in case of a blackout.
+\item Online Database - This database will act as an online backup in case the local database is unavailable. This database will be stored on an AWS instance, and will be updated every 4 hours, with at least 2 previous versions of the database available for download in case of file corruption or loss of data. 
+\end{itemize}
+\end{itemize}
+
+
+\end{document}
