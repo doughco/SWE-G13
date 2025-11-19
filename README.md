@@ -21,3 +21,6 @@ By informing the user of this information, we aim to minimize food spoilage and 
 | Cyriaque Denniel | ECE Paris École d'Ingénieurs, School of Engineering | cyriaque.denniel@edu.ece.fr |
 | Le Mee Thomas | ECE Paris École d'Ingénieurs, School of Engineering | thomas.lemee@edu.ece.fr |
 | Kim Seung Hyun | Department of Information Systems, Hanyang University | skim21@hanyang.ac.kr |
+
+##Necessary Links:
+https://www.kaggle.com/datasets/soorajkavumpadi/fruit-and-vegetable-dataset-for-shelf-life
