@@ -1,0 +1,41 @@
+Camera_
+Hardware Selection 
+Objective : To capture reliable images inside a refrigerator container.
+
+Caméra 
+The selected camera should feature a native CSI connector for direct integration with the Raspberry Pi, a fixed lens with adjustable focus optimized for the average distance inside the container, and low noise performance in low-light conditions to ensure high-quality, reliable images within the refrigerator environment.
+Recommended parts :
+-	Official IMX219 Camera Module (8 MP) :
+An economical, fully supported by the Raspberry Pi, ideal for lightweight embedded applications.
+-	IMX477 High Quality (HQ) Camera Module :
+A compact yet more powerful option, offering higher image quality and better performance in low-light conditions.
+
+Integrated lighting
+A small diffused white LED, powered through a GPIO pin with a resistor and activated by a script before capture, ensures clear images even in the darkness of the refrigerator, while avoiding glare or harsh shadows through the use of a plastic diffuser.
+
+Recommended parts :
+-	Kingbright WP710A10WDT or any 5 mm diffused white LED ( 150 Ω resistor )
+-	Waveshare Camera LED Ring Light for Raspberry Pi
+
+Connectique
+15-pin CSI ribbon cable, with a maximum length of 10–15 cm to avoid signal interference.
+Software Architecture 
+Objective : Develop a robust, simple, and lightweight embedded AI solution.
+
+-	Camera capture and driver : libcamera + Picamera2. Modern stack officially maintained by the Raspberry Pi Foundation.
+
+-	Image processing : OpenCV . Used for image cropping, resizing, and preprocessing before inference.
+
+Recommended Camera Parameters
+
+Parameter	Recommended Value	Justification
+Resolution	640×480 or 800×600	Sufficient for food classification while reducing computation time.
+Format	JPEG 	Good balance between image quality and file size.
+Capture frequency	1 photo every 10–30 minutes or triggered when the container is opened	Optimizes energy and resource usage.
+Exposure	Automatic at startup, then fixed	Ensures consistent image brightness across captures.
+White balance	Fixed based on LED lighting	Maintains stable color tones.
+Focus	Manually adjusted fixed lens	Guarantees sharp images at a defined distance inside the container.
+
+
+
+
