@@ -22,8 +22,5 @@ By informing the user of this information, we aim to minimize food spoilage and 
 | Le Mee Thomas | ECE Paris École d'Ingénieurs, School of Engineering | thomas.lemee@edu.ece.fr |
 | Kim Seung Hyun | Department of Information Systems, Hanyang University | skim21@hanyang.ac.kr |
 
-##Necessary Links:
-https://www.kaggle.com/datasets/soorajkavumpadi/fruit-and-vegetable-dataset-for-shelf-life
-
-
+## System Architecture Diagram
 <img width="6043" height="3127" alt="Smart Container Architecture" src="https://github.com/user-attachments/assets/6d68e386-bd94-4eac-982d-32301de3d375" />
