@@ -4,13 +4,14 @@
 
 ## Project Proposal
 
-This electronic “Smart Container” aims to provide a convenient way to allow users to track and maintain the freshness of the container’s contents within a smart fridge. 
+>[!NOTE]
+>This electronic “Smart Container” aims to provide a convenient way to allow users to track and maintain the freshness of the container’s contents within a smart fridge. 
+>
+>With the use of a combination of a LAN connection and a built in timer, the Smart Container intends to connect to the Smart Fridge and provide real time information of the duration the contents within have been present for. 
+>
+>By constantly communicating with the Smart Fridge through a seamless connection, the Smart Container will relay time and location information of the container, informing the user via Built-in lights and a Notification alert sent to the >user’s preferred device of the duration the container has been in the fridge for and whether the container has been outside the fridge for a set duration of time. 
 
-With the use of a combination of a LAN connection and a built in timer, the Smart Container intends to connect to the Smart Fridge and provide real time information of the duration the contents within have been present for. 
-
-By constantly communicating with the Smart Fridge through a seamless connection, the Smart Container will relay time and location information of the container, informing the user via Built-in lights and a Notification alert sent to the user’s preferred device of the duration the container has been in the fridge for and whether the container has been outside the fridge for a set duration of time. 
-
-By informing the user of this information, we aim to minimize food spoilage and potential food waste from accumulating within the fridge of the user. 
+>By informing the user of this information, we aim to minimize food spoilage and potential food waste from accumulating within the fridge of the user. 
 
 
 ## Group Members
@@ -24,3 +25,5 @@ By informing the user of this information, we aim to minimize food spoilage and 
 
 ## System Architecture Diagram
 <img width="6043" height="3127" alt="Smart Container Architecture" src="https://github.com/user-attachments/assets/6d68e386-bd94-4eac-982d-32301de3d375" />
+
+## About this project
