@@ -26,4 +26,4 @@
 <img width="6043" height="3127" alt="Smart Container Architecture" src="https://github.com/user-attachments/assets/6d68e386-bd94-4eac-982d-32301de3d375" />
 
 ## About this project
-The Smart Container is a container that can track and relay data to your mobile devices via a dedicated app
+The Smart Container is a container that can track and relay data to your mobile devices via a dedicated app. The container provides tracking data such as how long the shelf-life of the food inside has left, whether it is inside the fridge or not, and the status of each container.
