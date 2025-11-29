@@ -1,0 +1,20 @@
+# Android Studio
+*.iml
+.idea
+.gradle
+local.properties
+
+# Build files
+build/
+
+# Captures and snapshots
+.cxx/
+*.hprof
+*.keystore
+
+# Google services
+google-services.json
+
+# Crashlytics
+**/libs/libcrashlytics-trampoline.so
+**/libs/libunwind-trampoline.so

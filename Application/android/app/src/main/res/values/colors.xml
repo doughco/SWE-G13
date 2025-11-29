@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_bg">#121712</color>
+    <color name="dark_card">#1C261F</color>
+    <color name="dark_input">#29382E</color>
+    <color name="accent_text">#9EBAA6</color>
+    <color name="accent_green">#12ED5C</color>
+    <color name="white">#FFFFFF</color>
+</resources>
