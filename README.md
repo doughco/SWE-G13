@@ -23,7 +23,7 @@
 | Kim Seung Hyun | Department of Information Systems, Hanyang University | skim21@hanyang.ac.kr |
 
 ## System Architecture Diagram
-<img width="6043" height="3127" alt="Smart Container Architecture" src="https://github.com/doughco/SWE-G13/blob/8f765167668c6e1e99a034facf58b29d51ab52f7/Documents/Smart%20Container%20Architecture.png" />
+<img width="6043" height="3127" alt="Smart Container Architecture" src="https://github.com/doughco/SWE-G13/blob/149f4dc2971ceed694125b72edf2fae6aecbddee/Documents/Smart%20Container%20Architecture.png" />
 
 ## About this project
 The Smart Container is a container that can track and relay data to your mobile devices via a dedicated app. The container provides tracking data such as how long the shelf-life of the food inside has left, whether it is inside the fridge or not, and the status of each container.
