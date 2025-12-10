@@ -29,6 +29,6 @@
 The Smart Container is a container that can track and relay data to your mobile devices via a dedicated app. The container provides tracking data such as how long the shelf-life of the food inside has left, whether it is inside the fridge or not, and the status of each container.
 
 ### Extra Links
-Demonstration Video: [Smart Container Demonstration]([url](https://youtu.be/6DBUeziKmzg))
+Demonstration Video: [Smart Container Demonstration](https://youtu.be/6DBUeziKmzg)
 
-Presentation: [Smart Container Presentation]([url](https://docs.google.com/presentation/d/1l5lxsdPG4x3cCg-uU6voLHMnuX4MshKKnc80DY1riLQ/edit?usp=sharing)) 
+Presentation: [Smart Container Presentation](https://docs.google.com/presentation/d/1l5lxsdPG4x3cCg-uU6voLHMnuX4MshKKnc80DY1riLQ/edit?usp=sharing) 
