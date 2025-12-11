@@ -21,7 +21,8 @@
 >By informing the user of this information, we aim to minimize food spoilage and potential food waste from accumulating within the fridge of the user. 
 
 ## Demonstration Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xVkwJM6-_Xo?si=RC91YRFJ3jYoJE9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Smart Container Demonstration](maxresdefault.jpg)](https://www.youtube.com/watch?v=xVkwJM6-_Xo)
+
 
 ## Presentation
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTogg4b_viOuCwuHHPn6Fd-4azFJXvhYg2lpks5XA-9pGGFuAPpDH0Ro2rFCoNaS5p6iSteUG3otoTe/pubembed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> 
