@@ -21,10 +21,10 @@
 >By informing the user of this information, we aim to minimize food spoilage and potential food waste from accumulating within the fridge of the user. 
 
 ## Demonstration Video
-[![Smart Container Demonstration](https://img.youtube.com/vi/xVkwJM6-_Xo/hqdefault.jpg)](https://youtu.be/xVkwJM6-_Xo)
+[![Smart Container Demonstration](Documents/Video Cover.png)](https://youtu.be/xVkwJM6-_Xo)
 
 ## Presentation
-[![Open Google Slides](https://lh3.googleusercontent.com/)](https://docs.google.com/presentation/d/e/2PACX-1vTogg4b_viOuCwuHHPn6Fd-4azFJXvhYg2lpks5XA-9pGGFuAPpDH0Ro2rFCoNaS5p6iSteUG3otoTe/pub?start=false&loop=false)
+[![Open Google Slides](Documents/Presentation Cover.png)](https://docs.google.com/presentation/d/e/2PACX-1vTogg4b_viOuCwuHHPn6Fd-4azFJXvhYg2lpks5XA-9pGGFuAPpDH0Ro2rFCoNaS5p6iSteUG3otoTe/pub?start=false&loop=false)
 
 ## System Architecture Diagram
 <img width="6043" height="3127" alt="Smart Container Architecture" src="https://github.com/doughco/SWE-G13/blob/66cb1b4bbb3a0bd98a01510ff8d744243e509cc6/Documents/Smart%20Container%20Architecture%20Diagram.png" />
