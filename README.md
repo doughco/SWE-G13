@@ -36,6 +36,6 @@ The Smart Container is a container that can track and relay data to your mobile 
 
 Korean Blog: [Korean Blog Post](https://tinyurl.com/Smart-Container)
 
-Presentation: [Smart Container Presentation]([https://docs.google.com/presentation/d/1l5lxsdPG4x3cCg-uU6voLHMnuX4MshKKnc80DY1riLQ/edit?usp=sharing](https://docs.google.com/presentation/d/e/2PACX-1vTogg4b_viOuCwuHHPn6Fd-4azFJXvhYg2lpks5XA-9pGGFuAPpDH0Ro2rFCoNaS5p6iSteUG3otoTe/pub?start=false&loop=false)) 
+Presentation: [Smart Container Presentation](https://docs.google.com/presentation/d/e/2PACX-1vTogg4b_viOuCwuHHPn6Fd-4azFJXvhYg2lpks5XA-9pGGFuAPpDH0Ro2rFCoNaS5p6iSteUG3otoTe/pub?start=false&loop=false) 
 
 AI Blog: [AI Blog](https://rumbling-cosmos-f4d.notion.site/Food-Analysis-AI-Driven-Food-Type-and-Expiration-Date-Analyzer-2940fee9bdbe8028967bf1f23860c2e1)
